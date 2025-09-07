@@ -2,7 +2,7 @@
 name = "py-hack"
 version = "0.1.0"
 description = "Add your description here"
-readme = "README.md"
+# readme = "README.md"
 authors = [
     { name = "Fernando Bryan Reza Campos", email = "fer.rezac@outlook.com" }
 ]
