@@ -1,5 +1,4 @@
-## PY
-# Python-generated files
+## * Python-generated files
 __pycache__/
 *.py[oc]
 build/
@@ -10,9 +9,11 @@ wheels/
 # Virtual environments
 .venv
 
+# uv related
+.ruff_cache
+**.lock
 
-
-## GO
+## * GO
 # If you prefer the allow list template instead of the deny list, see community template:
 # https://github.com/github/gitignore/blob/main/community/Golang/Go.AllowList.gitignore
 #
@@ -36,8 +37,9 @@ profile.cov
 # vendor/
 
 # Go workspace file
-go.work
+# go.work
 go.work.sum
+
 
 # env file
 .env
@@ -45,3 +47,6 @@ go.work.sum
 # Editor/IDE
 # .idea/
 # .vscode/
+
+# data
+**/**temp/

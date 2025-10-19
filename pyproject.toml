@@ -1,0 +1,40 @@
+[project]
+name = "yog-sothoth"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Fernando Bryan Reza Campos", email = "fer.rezac@outlook.com" }
+]
+requires-python = ">=3.14"
+dependencies = []
+
+[tool.uv.workspace]
+members = [
+    "src/hack_py*",
+    "src/yog-sothoth/*py",
+]
+# exclude = [
+# 	# pkg related
+# 	"*.lock",
+# 	"dist",
+# 	"flake.*",
+
+# 	# rust related stuff
+# 	"Cargo.toml",
+# 	"target",
+# ]
+
+[project.scripts]
+yog-sothoth = "yog_sothoth:main"
+# cli = "yog_sothoth.cli:main"
+
+hack-py = "hack_py:main"
+
+[tool.pyright]
+venvPath = "."
+venv = ".venv"
+
+[build-system]
+requires = ["uv_build>=0.8.19,<0.9.0"]
+build-backend = "uv_build"

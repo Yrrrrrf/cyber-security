@@ -1,26 +1,13 @@
-# Cybersecurity R&D Lab 🛡️
+# Yog-Sothoth
 
-This repository is a personal workshop for building, testing, and documenting security tools and concepts. It's a practical learning environment for both offensive and defensive security, combining the flexibility of Python with the performance of Go.
+Este repositorio es un taller personal para construir, probar y documentar herramientas y conceptos de seguridad. Es un entorno de aprendizaje práctico tanto para seguridad ofensiva como defensiva, combinando la flexibilidad de Python con el rendimiento de Go.
 
-## Core Philosophy
+El nombre `Yog-Sothoth` (La Llave y la Puerta) representa la naturaleza de este laboratorio: una colección de conocimiento omnisciente y herramientas que "lo ven todo".
 
-The goal of this lab is to **learn by doing**. It serves as a personal collection of practical implementations, research notes, and reusable code, acting as a living document of my cybersecurity learning journey.
+## Directrices Éticas
 
-## Project Structure
+Todas las herramientas y scripts en este repositorio son solo para fines educativos. Siempre asegúrate de tener permiso explícito antes de probar la seguridad en cualquier entorno. Usa el conocimiento de manera responsable para fortalecer la seguridad, no para dañar.
 
-The lab is organized into several key directories, each with a distinct purpose:
+## Licencia
 
-*   **`go-arsenal/`**: A self-contained Go module for building high-performance, statically-compiled security tools. This is ideal for fast, concurrent applications like network scanners or web crawlers.
-*   **`arsenal/`**: A collection of standalone, task-oriented security tools written in Python. Perfect for rapid development and leveraging the rich Python ecosystem.
-*   **`src/`**: The core Python library for the project. Contains reusable modules (e.g., for networking, crypto) that are used by the scripts in the `arsenal/`.
-*   **`playbooks/`**: The knowledge base. This is where documentation, methodology guides, and detailed CTF walkthroughs are stored.
-*   **`scripts/`**: Miscellaneous, one-off Python scripts for quick experiments or testing a specific library.
-*   **`resources/`**: A repository for all non-code assets, such as wordlists, Yara rules, configuration files, and other data needed by the tools.
-
-## Getting Started
-
-Add something here later...
-
-## License
-
-This project is for educational purposes and is freely available to use, modify, and distribute under the **[MIT License](LICENSE)**.
+Este proyecto es para fines educativos y está disponible gratuitamente para usar, modificar y distribuir bajo la **[Licencia MIT](LICENSE)**.
