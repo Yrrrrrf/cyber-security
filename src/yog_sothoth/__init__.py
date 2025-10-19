@@ -5,8 +5,6 @@
 # src/yog_sothoth/__init__.py
 from hack_py.hack import do_hack_py_stuff
 
-# from src.hack_py.hack import do_hack_py_stuff
-
 def main() -> None:
     """
     Entrypoint principal de Python (Yog-Sothoth).

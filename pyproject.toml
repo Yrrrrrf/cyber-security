@@ -1,7 +1,7 @@
 [project]
 name = "yog-sothoth"
-version = "0.1.0"
-description = "Add your description here"
+version = "0.0.1"
+description = "That one who knows all the secrets"
 readme = "README.md"
 authors = [
     { name = "Fernando Bryan Reza Campos", email = "fer.rezac@outlook.com" }
@@ -12,18 +12,20 @@ dependencies = []
 [tool.uv.workspace]
 members = [
     "src/hack_py*",
-    "src/yog-sothoth/*py",
+    "src/yog_sothoth/*.py",
 ]
-# exclude = [
-# 	# pkg related
-# 	"*.lock",
-# 	"dist",
-# 	"flake.*",
+exclude = [
+    "src/*",
+	# pkg related
+	"*.lock",
+	"dist",
+	"flake.*",
 
-# 	# rust related stuff
-# 	"Cargo.toml",
-# 	"target",
-# ]
+	# go related stuff
+	"src/yog_sothoth/*.mod",
+	"src/yog_sothoth/*.go",
+
+]
 
 [project.scripts]
 yog-sothoth = "yog_sothoth:main"
